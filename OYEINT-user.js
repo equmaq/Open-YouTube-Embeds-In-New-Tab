@@ -1,12 +1,20 @@
 // ==UserScript==
 // @name         Open YouTube Embeds In New Tab
-// @namespace    http://tampermonkey.net/
-// @version      1.1
+// @namespace    https://github.com/equmaq/Open-YouTube-Embeds-In-New-Tab
+// @version      1.2
 // @description  Turns YouTube embeds into direct links opening in a new tab.
 // @author       equmaq
-// @match        *://*/*
 // @license      GPL-2.0
+//
+// @match        *://*/*
 // @run-at       document-start
+// @grant        none
+//
+// @homepageURL  https://github.com/equmaq/Open-YouTube-Embeds-In-New-Tab
+// @homepageURL  https://greasyfork.org/en/scripts/595398-open-youtube-embeds-in-new-tab
+// @supportURL   https://github.com/equmaq/Open-YouTube-Embeds-In-New-Tab/issues
+// @updateURL    https://raw.githubusercontent.com/equmaq/Open-YouTube-Embeds-In-New-Tab/refs/heads/main/OYEINT-user.js
+// @downloadURL  https://raw.githubusercontent.com/equmaq/Open-YouTube-Embeds-In-New-Tab/refs/heads/main/OYEINT-user.js
 // ==/UserScript==
 
 (function () {
